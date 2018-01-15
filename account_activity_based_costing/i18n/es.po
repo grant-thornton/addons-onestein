@@ -1,0 +1,176 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * account_activity_based_costing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-15 09:52+0000\n"
+"PO-Revision-Date: 2018-01-15 09:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "Activity Based Costing"
+msgstr "Costes basados en actividad"
+
+#. module: account_activity_based_costing
+#: model:ir.model,name:account_activity_based_costing.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: account_activity_based_costing
+#: model:ir.actions.act_window,name:account_activity_based_costing.analytic_account_reporting_pivot
+#: model:ir.ui.menu,name:account_activity_based_costing.menu_action_analytic_account_reporting
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_pivot
+msgid "Analytic Accounts"
+msgstr "Cuentas analíticas"
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "Budget"
+msgstr "Presupuesto"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_consumed_hours
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_consumed_hours
+msgid "Consumed Hours"
+msgstr "Horas consumidas"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_contribution
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_contribution
+msgid "Contribution"
+msgstr "Contribución"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_contribution_perc
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_contribution_perc
+msgid "Contribution [%]"
+msgstr "Contribución [%]"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_realized_costs
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_realized_costs
+msgid "Costs"
+msgstr "Costes"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_end_date
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_end_date
+msgid "End Date"
+msgstr "Fecha finalización"
+
+#. module: account_activity_based_costing
+#: code:addons/account_activity_based_costing/models/account_analytic_account.py:189
+#, python-format
+msgid "Error ! Starting date must be lower than ending date."
+msgstr "Error! La fecha de inicio debe ser menor que la fecha fin."
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "Expected"
+msgstr "Esperado"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_expected_contribution
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_expected_contribution
+msgid "Expected Contribution"
+msgstr "Contribución esperada"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_expected_contribution_perc
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_expected_contribution_perc
+msgid "Expected Contribution [%]"
+msgstr "Contribución esperada [%]"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_expected_costs
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_expected_costs
+msgid "Expected Costs"
+msgstr "Costes esperados"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_expected_hours
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_expected_hours
+msgid "Expected Hours"
+msgstr "Horas esperadas"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_expected_turnover
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_expected_turnover
+msgid "Expected Turnover"
+msgstr "Facturación esperada"
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "Hours"
+msgstr "Horas"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_hours_left
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_hours_left
+msgid "Hours Left"
+msgstr "Horas restantes"
+
+#. module: account_activity_based_costing
+#: model:ir.model,name:account_activity_based_costing.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "Realized"
+msgstr "Realizado"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_budget_result_contribution
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_budget_result_contribution
+msgid "Result Contribution"
+msgstr "Contribución resultante"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_budget_result_contribution_perc
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_budget_result_contribution_perc
+msgid "Result Contribution [%]"
+msgstr "Contribución resultante[%]"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_budget_result_cost
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_budget_result_cost
+msgid "Result Costs"
+msgstr "Costes resultantes"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_budget_result_turnover
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_budget_result_turnover
+msgid "Result Turnover"
+msgstr "Facturación resultante"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_start_date
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_start_date
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: account_activity_based_costing
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_account_analytic_account_realized_turnover
+#: model:ir.model.fields,field_description:account_activity_based_costing.field_project_project_realized_turnover
+msgid "Turnover"
+msgstr "Facturación"
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "_______________"
+msgstr "_______________"
+
+#. module: account_activity_based_costing
+#: model:ir.ui.view,arch_db:account_activity_based_costing.view_account_analytic_account_form
+msgid "___________________"
+msgstr "___________________"
